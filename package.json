@@ -1,0 +1,9 @@
+{
+  "name": "qoodish-functions",
+  "main": "index.js",
+  "repository": "git@github.com:yusuke-suzuki/qoodish-functions.git",
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "child-process-promise": "^2.2.1"
+  }
+}
