@@ -1,0 +1,10 @@
+steps:
+  - name: gcr.io/cloud-builders/yarn
+    args:
+      - "install"
+  - name: gcr.io/cloud-builders/gcloud
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - |
+        gcloud functions deploy generateThumbnail --trigger-resource qoodish --trigger-event google.storage.object.finalize --runtime nodejs10 --region asia-northeast1

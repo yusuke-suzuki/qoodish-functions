@@ -1,0 +1,15 @@
+{
+  "name": "qoodish-functions",
+  "main": "index.js",
+  "repository": "git@github.com:yusuke-suzuki/qoodish-functions.git",
+  "scripts": {
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "child-process-promise": "^2.2.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
