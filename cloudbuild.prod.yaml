@@ -8,5 +8,5 @@ steps:
       - "-c"
       - |
         gcloud kms decrypt --ciphertext-file=.env.yaml.enc --plaintext-file=.env.yaml --location=global --keyring=qoodish --key=qoodish
-        gcloud functions deploy generateThumbnail --trigger-resource qoodish --trigger-event google.storage.object.finalize --runtime nodejs10 --region asia-northeast1
+        gcloud functions deploy generateThumbnail --trigger-resource qoodish --trigger-event google.storage.object.finalize --runtime nodejs10 --memory 512MB --region asia-northeast1
         gcloud functions deploy notifyFeedback --trigger-event providers/cloud.firestore/eventTypes/document.create --trigger-resource projects/$PROJECT_ID/databases/default/documents/feedbacks/{feedbackId} --runtime nodejs10 --region asia-northeast1 --env-vars-file .env.yaml
