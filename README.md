@@ -11,6 +11,7 @@ gcloud functions deploy generateThumbnail \
   --trigger-resource <Bucket Name> \
   --trigger-event google.storage.object.finalize \
   --runtime nodejs10 \
+  --memory 512MB \
   --region asia-northeast1
 
 gcloud functions deploy notifyFeedback \
