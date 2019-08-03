@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@google-cloud/storage": "^3.0.3",
-    "@slack/webhook": "^5.0.0",
+    "@slack/webhook": "^5.0.1",
     "child-process-promise": "^2.2.1"
   },
   "devDependencies": {
