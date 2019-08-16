@@ -11,6 +11,6 @@
     "child-process-promise": "^2.2.1"
   },
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.9.0"
   }
 }
