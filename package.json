@@ -6,7 +6,7 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "@google-cloud/storage": "^3.0.4",
+    "@google-cloud/storage": "^4.0.0",
     "@slack/webhook": "^5.0.1",
     "child-process-promise": "^2.2.1"
   },
