@@ -1,5 +1,5 @@
-const generateThumbnail = require('./generateThumbnail');
+const generateThumbnails = require('./generateThumbnails');
 const notifyFeedback = require('./notifyFeedback');
 
-module.exports.generateThumbnail = generateThumbnail;
+module.exports.generateThumbnails = generateThumbnails;
 module.exports.notifyFeedback = notifyFeedback;
