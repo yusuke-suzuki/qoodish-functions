@@ -8,7 +8,8 @@
   "dependencies": {
     "@google-cloud/storage": "^4.3.0",
     "@slack/webhook": "^5.0.2",
-    "child-process-promise": "^2.2.1"
+    "mkdirp": "^0.5.1",
+    "sharp": "^0.24.0"
   },
   "devDependencies": {
     "jest": "^24.9.0"
