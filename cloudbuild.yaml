@@ -1,8 +1,8 @@
 steps:
-  - name: gcr.io/cloud-builders/yarn
-    entrypoint: "bash"
+  - name: node:13.7.0-alpine
+    entrypoint: sh
     args:
-      - "-c"
+      - -c
       - |
         yarn
         yarn test
